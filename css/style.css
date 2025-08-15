@@ -322,10 +322,19 @@ div {
 
 .h__body {
   background: #eff33c;
-  width: 30vh;
+  width: 28vh;
   height: 15vh;
   position: absolute;
   top: 24vh;
   border-radius: 15vh;
 }
 
+.h__eye{
+    background: #191919;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 27vh;
+    left: 40vh;
+}
