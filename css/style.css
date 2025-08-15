@@ -327,14 +327,27 @@ div {
   position: absolute;
   top: 24vh;
   border-radius: 15vh;
+  overflow: hidden;
+  justify-content: flex-start;
 }
 
-.h__eye{
-    background: #191919;
-    width: 3vh;
-    height: 3vh;
-    border-radius: 50%;
-    position: absolute;
-    top: 27vh;
-    left: 40vh;
+.h__eye {
+  background: #191919;
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
+  position: absolute;
+  top: 27vh;
+  left: 40vh;
+}
+.h__body > div {
+  height: 100%;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.stripe {
+  height: 100%;
+  width: 25%;
+  background-color: #191919;
 }
