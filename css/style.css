@@ -300,22 +300,32 @@ div {
   position: relative;
 }
 
-.h__wring-left{
-    background: #fff;
-    width: 14vh;
-    height: 14vh;
-    position: absolute;
-    border-radius: 10vh 10vh 0 10vh;
-    left: 20vh;
-    top: 10vh;
+.h__wring-left {
+  background: #fff;
+  width: 14vh;
+  height: 14vh;
+  position: absolute;
+  border-radius: 10vh 10vh 0 10vh;
+  left: 20vh;
+  top: 10vh;
 }
 
-.h__wring-right{
-    background: #fff;
-    width: 14vh;
-    height: 14vh;
-    position: absolute;
-    border-radius: 10vh 10vh 10vh 0;
-    right: 20vh;
-    top: 10vh;
+.h__wring-right {
+  background: #fff;
+  width: 14vh;
+  height: 14vh;
+  position: absolute;
+  border-radius: 10vh 10vh 10vh 0;
+  right: 20vh;
+  top: 10vh;
 }
+
+.h__body {
+  background: #eff33c;
+  width: 30vh;
+  height: 15vh;
+  position: absolute;
+  top: 24vh;
+  border-radius: 15vh;
+}
+
